@@ -32,35 +32,49 @@ print(len(first_name) > len(last_name))
 
 #LEVEL 2 number 4
 num_one = 5
+print(num_one)
 num_two = 4
+print(num_two)
 total = num_one + num_two
+print(total)
 diff = num_one - num_two
+print(diff)
 product = num_one * num_two
+print(product)
 division = num_one / num_two
+print(division)
 remainder = num_one % num_two
+print(remainder)
 exp = num_one ** num_two
+print(exp)
 floor_division = num_one // num_two
+print(floor_division)
 radius = 30
 area_of_circle = 3.14 * (radius ** 2)
+print(area_of_circle)
 circum_of_circle = 2 * 3.14 * radius
+print(circum_of_circle)
 take_area = int(input('Input your Radius:'))
 print(3.14* (radius**2))
-user_Firstname = input('Enter your Fisrt name:')
-user_Lastname = input('Enter your last name:')
-user_Country = input('Kindly enter your Country:')
-user_Age = input('Please Enter your Age:')
-print(num_one)
-print(num_two)
-print(total)
-print(diff)
-print(product)
-print(division)
-print(remainder)
-print(exp)
-print(floor_division)
-print(area_of_circle)
-print(circum_of_circle)
+user_Firstname = input('Enter your Fisrt name: ')
 print(user_Firstname)
+user_Lastname = input('Enter your last name: ')
 print(user_Lastname)
+user_Country = input('Kindly enter your Country: ')
 print(user_Country)
+user_Age = input('Please Enter your Age: ')
 print(user_Age)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
