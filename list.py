@@ -135,8 +135,12 @@ print(min_age)
 print(max_age)
 
 # Find the median age (one middle item or two middle items divided by two)
-median_age = ages[len(ages) // 2] 
-print(median_age)
+median_age_1 = ages[len(ages) // 2]
+median_age_2 = ages[len(ages) // 2 -1]
+median = int((median_age_1 + median_age_2) / 2)
+print(median_age_1)
+print(median_age_2)
+print(median)
 
 # Find the average age (sum of all items divided by their number)
 average_age = sum(ages) / len(ages)
@@ -149,6 +153,8 @@ print(range_age)
 # Compare the value of (min - average) and (max - average), use abs() method
 compare_min = abs(min_age - average_age)
 compare_max = abs(max_age - average_age)
+com_abs = (compare_min < compare_min)
+print(com_abs)
 print(int(compare_min))
 print(int(compare_max))
 
